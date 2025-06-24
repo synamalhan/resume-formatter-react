@@ -1,6 +1,10 @@
+// @ts-ignore
 import React, { useState } from "react";
+// @ts-ignore
 import Sidebar from "./components/Sidebar";
+// @ts-ignore
 import ResumeForm from "./components/ResumeForm";
+// @ts-ignore
 import PDFGenerator from "./components/PDFGenerator";
 
 export default function App() {
@@ -10,7 +14,7 @@ export default function App() {
   });
 
   const [formatting, setFormatting] = useState({
-    font: "Arial",
+    font: "Times-Roman",
     fontSize: 11,
     spacing: 8,
   });
