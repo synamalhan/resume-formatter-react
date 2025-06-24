@@ -145,8 +145,8 @@ const ResumePDF = ({ data, formatting }) => {
 // PDF Generator Component with Toggle Button
 const PDFGenerator = ({ data, formatting }) => {
   const [showPreview, setShowPreview] = useState(false);
-  console.log("PDFGenerator data:", data);
-    console.log("PDFGenerator formatting:", formatting);
+  //console.log("PDFGenerator data:", data);
+    //console.log("PDFGenerator formatting:", formatting);
 
   const downloadJSON = () => {
     const blob = new Blob([JSON.stringify(data, null, 2)], {
